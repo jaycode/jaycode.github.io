@@ -1085,7 +1085,8 @@ h6:hover .anchor-link {
 <p>Participation in this challenge is open to all students in the Self-Driving Car Nanodegree Program. The top 150 competitors (globally) will be eligible for an intensive career preparation seminar with the Udacity Careers Team and the top 25 (with U.S. work authorization) will be eligible for an interview with Lyft.</p>
 <p>I was lucky enough to get into rank 22nd but boy the competition was intense from then on.</p>
 <p><img alt="ranks" src="./ranks.png" /></p>
-<center>**MacDriver, a spin-off of MacGyver!**</center><p>I used a semantic segmentation algorithm with deep learning system which achieved a car F-score of 0.8321 and road F-score of 0.9856 with FPS of 11.363. To build this algorithm, I used MobileUNet network with 22300 training data, augmented by horizontal flipping, color intensity adjustments, and image rotations.</p>
+<p><strong><center>MacDriver, a spin-off of MacGyver!</center></strong></p>
+<p>I used a semantic segmentation algorithm with deep learning system which achieved a car F-score of 0.8321 and road F-score of 0.9856 with FPS of 11.363. To build this algorithm, I used MobileUNet network with 22300 training data, augmented by horizontal flipping, color intensity adjustments, and image rotations.</p>
 <p>The result can be seen in <a href="https://www.youtube.com/watch?v=OuhMW2FnUmE&amp;feature=youtu.be">this video</a>.</p>
 <h2 id="1.-Model-Architecture">1. Model Architecture<a class="anchor-link" href="#1.-Model-Architecture">¶</a></h2><p>The base code of the model was shamelessly taken from <a href="https://github.com/GeorgeSeif/Semantic-Segmentation-Suite">this Github repositroy</a>.</p>
 <p>MobileUNet <a href="#ref1">[1]</a> is a variation of MobileNet <a href="#ref2">[2]</a> and UNet <a href="#ref3">[3]</a>. This specific architecture was chosen due to its higher inference speed compared to most semantic segmentation models.</p>
