@@ -1390,7 +1390,7 @@ h6:hover .anchor-link {
 <img alt="final3" src="./final1.png" /></p>
 <h2 id="5.-Speed-Optimizations">5. Speed Optimizations<a class="anchor-link" href="#5.-Speed-Optimizations">¶</a></h2><p>Some optimizations were made to increase the inference speed:</p>
 <ol>
-<li>I used OpenCV (cv2-python) module to encode images instead of PIL.</li>
+<li>I used OpenCV (cv2-python) module to encode images instead of PIL (idea by Phu Nguyen (phmagic)).</li>
 <li>OpenCV was used to read data from video too using <code>cv2.VideoCapture</code> function.</li>
 <li><a href="http://cv-tricks.com/how-to/freeze-tensorflow-models/">Freeze</a> the model and use the frozen model for inference.</li>
 </ol>
