@@ -1133,7 +1133,7 @@ $( document ).ready(code_toggle);
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [19]:</div>
+<div class="prompt input_prompt">In [2]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -1154,15 +1154,15 @@ $( document ).ready(code_toggle);
     <span class="n">cf_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">CF_FILE</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
     <span class="n">cf_df</span> <span class="o">=</span> <span class="n">cf_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     
-    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"**</span><span class="si">{}</span><span class="s2"> Income Statement (annual)**"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"#### </span><span class="si">{}</span><span class="s2"> Income Statement (annual)"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
     <span class="n">display</span><span class="p">(</span><span class="n">i_df</span><span class="p">)</span>
 
-    <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
-    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"**</span><span class="si">{}</span><span class="s2"> Balance Sheet (annual)**"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"#### </span><span class="si">{}</span><span class="s2"> Balance Sheet (annual)"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
     <span class="n">display</span><span class="p">(</span><span class="n">bs_df</span><span class="p">)</span>
 
-    <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
-    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"**</span><span class="si">{}</span><span class="s2"> Cash Flow (annual)**"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"#### </span><span class="si">{}</span><span class="s2"> Cash Flow (annual)"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
     <span class="n">display</span><span class="p">(</span><span class="n">cf_df</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1179,7 +1179,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>ACIA Income Statement (annual)</strong></p>
+<h4 id="ACIA-Income-Statement-(annual)">ACIA Income Statement (annual)<a class="anchor-link" href="#ACIA-Income-Statement-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -1535,13 +1535,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>ACIA Balance Sheet (annual)</strong></p>
+<h4 id="ACIA-Balance-Sheet-(annual)">ACIA Balance Sheet (annual)<a class="anchor-link" href="#ACIA-Balance-Sheet-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -2146,13 +2148,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>ACIA Cash Flow (annual)</strong></p>
+<h4 id="ACIA-Cash-Flow-(annual)">ACIA Cash Flow (annual)<a class="anchor-link" href="#ACIA-Cash-Flow-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -2709,7 +2713,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>EXPR Income Statement (annual)</strong></p>
+<h4 id="EXPR-Income-Statement-(annual)">EXPR Income Statement (annual)<a class="anchor-link" href="#EXPR-Income-Statement-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -3065,13 +3069,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>EXPR Balance Sheet (annual)</strong></p>
+<h4 id="EXPR-Balance-Sheet-(annual)">EXPR Balance Sheet (annual)<a class="anchor-link" href="#EXPR-Balance-Sheet-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -3702,13 +3708,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>EXPR Cash Flow (annual)</strong></p>
+<h4 id="EXPR-Cash-Flow-(annual)">EXPR Cash Flow (annual)<a class="anchor-link" href="#EXPR-Cash-Flow-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -4279,7 +4287,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>URBN Income Statement (annual)</strong></p>
+<h4 id="URBN-Income-Statement-(annual)">URBN Income Statement (annual)<a class="anchor-link" href="#URBN-Income-Statement-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -4607,13 +4615,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>URBN Balance Sheet (annual)</strong></p>
+<h4 id="URBN-Balance-Sheet-(annual)">URBN Balance Sheet (annual)<a class="anchor-link" href="#URBN-Balance-Sheet-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -5244,13 +5254,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>URBN Cash Flow (annual)</strong></p>
+<h4 id="URBN-Cash-Flow-(annual)">URBN Cash Flow (annual)<a class="anchor-link" href="#URBN-Cash-Flow-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -5793,7 +5805,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>GCO Income Statement (annual)</strong></p>
+<h4 id="GCO-Income-Statement-(annual)">GCO Income Statement (annual)<a class="anchor-link" href="#GCO-Income-Statement-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -6149,13 +6161,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>GCO Balance Sheet (annual)</strong></p>
+<h4 id="GCO-Balance-Sheet-(annual)">GCO Balance Sheet (annual)<a class="anchor-link" href="#GCO-Balance-Sheet-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -6838,13 +6852,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>GCO Cash Flow (annual)</strong></p>
+<h4 id="GCO-Cash-Flow-(annual)">GCO Cash Flow (annual)<a class="anchor-link" href="#GCO-Cash-Flow-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -7471,7 +7487,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>CATO Income Statement (annual)</strong></p>
+<h4 id="CATO-Income-Statement-(annual)">CATO Income Statement (annual)<a class="anchor-link" href="#CATO-Income-Statement-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -7841,13 +7857,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>CATO Balance Sheet (annual)</strong></p>
+<h4 id="CATO-Balance-Sheet-(annual)">CATO Balance Sheet (annual)<a class="anchor-link" href="#CATO-Balance-Sheet-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -8491,13 +8509,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>CATO Cash Flow (annual)</strong></p>
+<h4 id="CATO-Cash-Flow-(annual)">CATO Cash Flow (annual)<a class="anchor-link" href="#CATO-Cash-Flow-(annual)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -9072,7 +9092,7 @@ $( document ).ready(code_toggle);
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [20]:</div>
+<div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">ticker</span> <span class="ow">in</span> <span class="n">tickers</span><span class="p">:</span>
@@ -9089,15 +9109,15 @@ $( document ).ready(code_toggle);
     <span class="n">cf_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">CF_FILE</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
     <span class="n">cf_df</span> <span class="o">=</span> <span class="n">cf_df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     
-    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"**</span><span class="si">{}</span><span class="s2"> Income Statement (quarterly)**"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"#### </span><span class="si">{}</span><span class="s2"> Income Statement (quarterly)"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
     <span class="n">display</span><span class="p">(</span><span class="n">i_df</span><span class="p">)</span>
 
-    <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
-    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"**</span><span class="si">{}</span><span class="s2"> Balance Sheet (quarterly)**"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"#### </span><span class="si">{}</span><span class="s2"> Balance Sheet (quarterly)"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
     <span class="n">display</span><span class="p">(</span><span class="n">bs_df</span><span class="p">)</span>
 
-    <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
-    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"**</span><span class="si">{}</span><span class="s2"> Cash Flow (quarterly)**"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Markdown</span><span class="p">(</span><span class="s2">"#### </span><span class="si">{}</span><span class="s2"> Cash Flow (quarterly)"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ticker</span><span class="p">)))</span>
     <span class="n">display</span><span class="p">(</span><span class="n">cf_df</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -9114,7 +9134,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>ACIA Income Statement (quarterly)</strong></p>
+<h4 id="ACIA-Income-Statement-(quarterly)">ACIA Income Statement (quarterly)<a class="anchor-link" href="#ACIA-Income-Statement-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -9470,13 +9490,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>ACIA Balance Sheet (quarterly)</strong></p>
+<h4 id="ACIA-Balance-Sheet-(quarterly)">ACIA Balance Sheet (quarterly)<a class="anchor-link" href="#ACIA-Balance-Sheet-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -10055,13 +10077,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>ACIA Cash Flow (quarterly)</strong></p>
+<h4 id="ACIA-Cash-Flow-(quarterly)">ACIA Cash Flow (quarterly)<a class="anchor-link" href="#ACIA-Cash-Flow-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -10604,7 +10628,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>EXPR Income Statement (quarterly)</strong></p>
+<h4 id="EXPR-Income-Statement-(quarterly)">EXPR Income Statement (quarterly)<a class="anchor-link" href="#EXPR-Income-Statement-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -10946,13 +10970,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>EXPR Balance Sheet (quarterly)</strong></p>
+<h4 id="EXPR-Balance-Sheet-(quarterly)">EXPR Balance Sheet (quarterly)<a class="anchor-link" href="#EXPR-Balance-Sheet-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -11544,13 +11570,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>EXPR Cash Flow (quarterly)</strong></p>
+<h4 id="EXPR-Cash-Flow-(quarterly)">EXPR Cash Flow (quarterly)<a class="anchor-link" href="#EXPR-Cash-Flow-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -12037,7 +12065,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>URBN Income Statement (quarterly)</strong></p>
+<h4 id="URBN-Income-Statement-(quarterly)">URBN Income Statement (quarterly)<a class="anchor-link" href="#URBN-Income-Statement-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -12365,13 +12393,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>URBN Balance Sheet (quarterly)</strong></p>
+<h4 id="URBN-Balance-Sheet-(quarterly)">URBN Balance Sheet (quarterly)<a class="anchor-link" href="#URBN-Balance-Sheet-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -12976,13 +13006,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>URBN Cash Flow (quarterly)</strong></p>
+<h4 id="URBN-Cash-Flow-(quarterly)">URBN Cash Flow (quarterly)<a class="anchor-link" href="#URBN-Cash-Flow-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -13497,7 +13529,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>GCO Income Statement (quarterly)</strong></p>
+<h4 id="GCO-Income-Statement-(quarterly)">GCO Income Statement (quarterly)<a class="anchor-link" href="#GCO-Income-Statement-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -13853,13 +13885,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>GCO Balance Sheet (quarterly)</strong></p>
+<h4 id="GCO-Balance-Sheet-(quarterly)">GCO Balance Sheet (quarterly)<a class="anchor-link" href="#GCO-Balance-Sheet-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -14555,13 +14589,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>GCO Cash Flow (quarterly)</strong></p>
+<h4 id="GCO-Cash-Flow-(quarterly)">GCO Cash Flow (quarterly)<a class="anchor-link" href="#GCO-Cash-Flow-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -15118,7 +15154,7 @@ $( document ).ready(code_toggle);
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>CATO Income Statement (quarterly)</strong></p>
+<h4 id="CATO-Income-Statement-(quarterly)">CATO Income Statement (quarterly)<a class="anchor-link" href="#CATO-Income-Statement-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -15502,13 +15538,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>CATO Balance Sheet (quarterly)</strong></p>
+<h4 id="CATO-Balance-Sheet-(quarterly)">CATO Balance Sheet (quarterly)<a class="anchor-link" href="#CATO-Balance-Sheet-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
@@ -16113,13 +16151,15 @@ $( document ).ready(code_toggle);
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+
+
 </pre>
 </div>
 </div>
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_markdown rendered_html output_subarea ">
-<p><strong>CATO Cash Flow (quarterly)</strong></p>
+<h4 id="CATO-Cash-Flow-(quarterly)">CATO Cash Flow (quarterly)<a class="anchor-link" href="#CATO-Cash-Flow-(quarterly)">¶</a></h4>
 </div>
 </div>
 <div class="output_area">
